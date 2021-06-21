@@ -49,7 +49,7 @@ try {
             <td>Loại hàng</td>
             <td><select name="productLine">
                     <?php foreach ($productLines as $productLine): ?>
-                        <option value="<?php echo $productLine['id'] ?>" <?php if ($productLine['$id'] == $data['productLine_id']) {echo 'selected';} ?>><?php echo $productLine['productLine'] ?></option>
+                        <option value="<?php echo $productLine['id'] ?>" <?php if ($productLine['id'] == $data['productLine_id']) {echo 'selected';} ?>><?php echo $productLine['productLine'] ?></option>
                     <?php endforeach; ?>
                 </select></td>
         </tr>
