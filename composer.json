@@ -1,0 +1,22 @@
+{
+  "name": "vendor_name/den-hung-online",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "kien",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Src\\Controller\\" : "src/controller",
+      "Src\\Database\\" : "src/database",
+      "Src\\Model\\" : "src/model"
+    }
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
